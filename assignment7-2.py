@@ -3,10 +3,6 @@ drama = "Dunkirk"
 comedy = "Disaster Artist"
 dramedy = "Lala Land"
 
-likes_drama = None
-likes_documentary = None
-likes_comedy = None
-
 print("How would you rate documentaries? (input 1-5)")
 likes_documentary = int(input())
 
