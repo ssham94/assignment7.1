@@ -18,17 +18,17 @@ highest_score = max(scores, key=scores.get)
 print(highest_score)
 
 if likes_documentary > 3:
-    print("I recommend watching Chernobyl")
+    print("I recommend watching {}".format(documentary))
 elif likes_drama > 3 and likes_comedy > 3:
-    print("I recommend watching Lala Land")
+    print("I recommend watching {}".format(dramedy))
 elif likes_drama > 3:
-    print("I recommend watching Dunkirk")
+    print("I recommend watching {}".format(drama))
 elif likes_comedy > 3:
-    print("I recommend watching Disaster Artist")
+    print("I recommend watching {}".format(comedy))
 elif highest_score == "Documentary":
-    print("I recommend watching Chernobyl")
+    print("I recommend watching {}".format(documentary))
 elif highest_score == "Drama":
-    print("I recommend watching Dunkirk")
+    print("I recommend watching {}".format(drama))
 elif highest_score == "Comedy":
-    print("I recommend watching Disaster Artist")
+    print("I recommend watching {}".format(comedy))
 
