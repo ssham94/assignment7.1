@@ -15,7 +15,6 @@ likes_comedy = int(input())
 scores = {'Documentary': likes_documentary, 'Drama': likes_drama, 'Comedy': likes_comedy}
 
 highest_score = max(scores, key=scores.get)
-print(highest_score)
 
 if likes_documentary > 3:
     print("I recommend watching {}".format(documentary))
