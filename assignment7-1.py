@@ -7,11 +7,11 @@ likes_drama = None
 likes_documentary = None
 likes_comedy = None
 
-print("Do you like dramas?")
-likes_drama = input()
-
 print("Do you like documentaries?")
 likes_documentary = input()
+
+print("Do you like dramas?")
+likes_drama = input()
 
 print("Do you like comedies?")
 likes_comedy = input()
