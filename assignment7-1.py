@@ -13,7 +13,7 @@ print("Do you like comedies?")
 likes_comedy = input()
 
 if likes_documentary[0].lower() == "y":
-    print("I recommend watching }".format(documentary))
+    print("I recommend watching {}".format(documentary))
 elif likes_drama[0].lower() == 'y' and likes_comedy[0].lower() == 'y':
     print("I recommend watching {}".format(dramedy))
 elif likes_drama[0].lower() == 'y':
